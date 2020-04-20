@@ -1,0 +1,44 @@
+/* Project based on published work by https://github.com/mikhail-cct */
+
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+  background-image: url("https://wallpapersite.com/images/pages/pic_w/9954.jpg");
+  background-repeat: no-repeat, repeat;
+  background-size: cover;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  line-height: 60px; /* Vertically center the text there */
+  background-color: #00a2ff;
+}
+table, th, td {
+     border-collapse: collapse;
+     border: 1px solid black;
+     text-align: center;
+}
+ table {
+     border-collapse: collapse;
+     width:100%;
+}
+ td, th {
+     border: 1px solid #ced4da;
+     padding: 0.5rem;
+     text-align: left;
+}
+ th {
+     font-weight: bold;
+}
+.selected {
+            background-color: #2f86f8;
+            color: #FFF;
+}
