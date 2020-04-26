@@ -1,6 +1,3 @@
-/**
- * file that defines the schema for mongoose
- */
 module.exports = mongoose => {
     const bookshop = mongoose.model(
         "bookshop",
@@ -10,7 +7,6 @@ module.exports = mongoose => {
                 item: String,
                 price: String,
                 title: Number,
-                published: Boolean
         },
         { timestamps: true }
       )
