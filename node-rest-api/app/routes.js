@@ -1,14 +1,13 @@
 import { Router } from 'express';
-import SalonController from './controllers/salon.controller';
+import BookShopController from './controllers/BookShop.controller';
 import errorHandler from './middleware/error-handler';
 
 const routes = new Router();
 
-// Beauty Salon
-routes.post('/api/salon/insert', SalonController.insert);
-routes.post('/api/salon/update/:salonId', SalonController.update);
-routes.post('/api/salon/delete', SalonController.delete);
-routes.get('/api/salon', SalonController.getAll);
+routes.post('/api/BookShop/insert', BookShopController.insert);
+routes.post('/api/BookShop/update/:BookShopId', BookShopController.update);
+routes.post('/api/BookShop/delete', BookShopController.delete);
+routes.get('/api/BookShop', BookShopController.getAll);
 
 
 

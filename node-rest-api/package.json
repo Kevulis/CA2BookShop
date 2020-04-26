@@ -29,10 +29,10 @@
     "boilerplate",
     "mongo"
   ],
-  "author": "Adil Sikandar <ahafiz167@gmail.com>",
+  "author": "Kevin Cardoso 2017183",
   "license": "MIT",
   "bugs": {
-    "url": ""
+    "url": "https://github.com/Kevulis/CA2BookShop"
   },
   "homepage": "",
   "dependencies": {

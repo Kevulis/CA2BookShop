@@ -25,7 +25,7 @@ const defaultConfig = {
 	mongo: {
 		seed: true,
 		options: {
-			db: {
+			db: { 
 				safe: true
 			}
 		}

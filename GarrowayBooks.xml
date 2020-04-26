@@ -1,5 +1,3 @@
-<!-- Project based on published work by https://github.com/mikhail-cct -->
-
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <booklist>
   <section name="Adventure">
@@ -46,6 +44,10 @@
     <entree>
       <item>The Mortal Instruments</item>
       <price>9.79</price>
+    </entree>
+    <entree>
+      <item>Harry Potter</item>
+      <price>10.99</price>
     </entree>
   </section>
   <section name="Mistic">
