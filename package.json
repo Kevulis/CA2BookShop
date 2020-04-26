@@ -1,7 +1,7 @@
 {
-  "name": "ca1-in-class-demo",
+  "name": "ca2bookshop",
   "version": "1.0.0",
-  "description": "[![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/mikhail-cct/CA1-In-class-Demo)",
+  "description": "[![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/Kevulis/CA2BookShop)",
   "main": "server.js",
   "dependencies": {
     "cors": "^2.8.5",
@@ -12,6 +12,7 @@
     "mongo": "^0.1.0",
     "mongodb": "^3.5.6",
     "mongoose": "^5.9.9",
+    "node": "^14.0.0",
     "path": "^0.12.7",
     "xml2js": "^0.4.23",
     "xslt-processor": "^0.11.5"
@@ -23,12 +24,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Laridff/CA1-In-class-Demo.git"
+    "url": "git+https://github.com/Kevulis/CA2BookShop.git"
   },
-  "author": "",
+  "author": "Kevin Cardoso",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Laridff/CA1-In-class-Demo/issues"
+    "url": "https://github.com/Kevulis/CA2BookShop/issues"
   },
-  "homepage": "https://github.com/Laridff/CA1-In-class-Demo#readme"
+  "homepage": "https://github.com/Kevulis/CA2BookShop#readme"
 }

@@ -35,10 +35,10 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 // simple route
 app.get("/", (req, res) => {
-  res.json({ message: "Welcome to Like An Angel application." });
+  res.json({ message: "Welcome to Garroway BookShop Universe" });
 });
 
-require("./app/routes/likeanangel.routes.js")(app);
+require("./app/routes/bookshop.routes.js")(app);
 
 // set port, listen for requests
 const PORT = process.env.PORT || 8080;
