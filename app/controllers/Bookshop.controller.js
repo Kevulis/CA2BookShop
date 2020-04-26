@@ -1,3 +1,7 @@
+// Reference webistes: https://bezkoder.com/node-express-mongodb-crud-rest-api/
+// https://bezkoder.com/angular-mongodb-node-express/
+
+
 const db = require("../models");
 const Bookshop = db.bookshop;
 

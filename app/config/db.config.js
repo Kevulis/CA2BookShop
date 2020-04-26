@@ -1,6 +1,9 @@
+// Reference webistes: https://bezkoder.com/node-express-mongodb-crud-rest-api/
+// https://bezkoder.com/angular-mongodb-node-express/
+
 module.exports = {
 
     //MongoDB Atlas link
-    url: "mongodb+srv://kevin:kevin123@cluster0-nkxox.mongodb.net/test?retryWrites=true&w=majority"
+    url: process.env.MONGODB_URL
     
   };    

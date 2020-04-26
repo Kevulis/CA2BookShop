@@ -1,9 +1,13 @@
+// Reference webistes: https://bezkoder.com/node-express-mongodb-crud-rest-api/
+// https://bezkoder.com/angular-mongodb-node-express/
+// based on published work by https://github.com/mikhail-cct 
+
 const express = require("express"); //build the resp APIs , HTML, C?SS, client-side JS files
 const bodyParser = require("body-parser"); //parses the request and creates the req. body object
 const cors = require("cors"); //express Middleware to enable CORS w several options
 const http = require("http"); //HTTP server functionalities
 const path = require('path'); //utilities for working with file and directory path
-
+require ('dotenv').config();
 const app = express(); // setting the routing to be handled by Express
 let server = http.createServer(app); //This is where our server gets created
 
